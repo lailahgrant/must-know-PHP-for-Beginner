@@ -11,9 +11,14 @@ There are 3 methods for connecting to the Database and they're as follows
 
 
 - **new mysqli**
+
+Create a variable object `new`
 <img src="./new_mysqli.png" alt="new mysqli">
 
 - **define()**
+
+`define()` - defines a constant (values that can't be changed but can be accessed across the code)
+
 <img src="./define().png" alt="define()">
 
 [connection.php](./connection.php)
@@ -21,6 +26,7 @@ There are 3 methods for connecting to the Database and they're as follows
 ## 2. Create a Database
 - First connect to the database
 - Make SQL query to connect to the database 
+- Pass two parameters in `mysqli_query()`,  *server connection* and *database creation sql*.
 
 <img src="./create-database.png" alt="create database using sql query">
 
@@ -45,5 +51,32 @@ There are 3 methods for connecting to the Database and they're as follows
 <img src="./update-table.png" alt="Update data in the table field in PHP">
 
 [update.php](./update.php)
+
+
+## 6. Alter table data
+
+> To make changes in the table like `adding columns`, `deleting columns`, etc.
+
+- To remove the email column, use the following query:
+
+```php
+$sql = "alter table `data` drop column `email`";
+```
+- `drop column` deletes the whole column in a table
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

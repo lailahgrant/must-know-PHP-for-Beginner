@@ -12,7 +12,9 @@ if($con){
     
     //echo "Connection and Database Successful";
 
-    $sql = "insert into `data`(username, email) values ('Grant', 'grant@gmail.com')";
+    // $sql = "insert into `data`(username, email) values ('Grant', 'grant@gmail.com')";
+    $sql = "insert into `data`(username, email) values ('Lailah', 'lailah@gmail.com')";
+    // $sql = "insert into `data`(username, email) values ('Bushra', 'bushra@gmail.com')";
     $queryexecute = mysqli_query($con, $sql);
 
     if($queryexecute){
