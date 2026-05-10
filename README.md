@@ -87,6 +87,9 @@ $sql = "alter table `data` add email VARCHAR(100)";
 
 > Use `id` to delete specific data from the table
 
+<img src="./delete-data-using-id.png" alt="Delete data in a table using id">
+
+[delete.php](delete.php)
 
 
 
