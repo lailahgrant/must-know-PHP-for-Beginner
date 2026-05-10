@@ -83,7 +83,9 @@ $sql = "alter table `data` add email VARCHAR(100)";
 [alter-add.php](./alter-add.php)
 
 
+## 7. Delete data 
 
+> Use `id` to delete specific data from the table
 
 
 
