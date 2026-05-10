@@ -57,11 +57,12 @@ Create a variable object `new`
 
 > To make changes in the table like `adding columns`, `deleting columns`, etc.
 
-- To remove the email column, use the following query:
+a) To remove the email column, use the following query:
 
 ```php
 $sql = "alter table `data` drop column `email`";
 ```
+
 - `drop column` deletes the whole column in a table
 
 <img src="./alter-drop-column.png" alt="Alter table data in php - alter column">
@@ -69,7 +70,17 @@ $sql = "alter table `data` drop column `email`";
 [alter.php](./alter.php)
 
 
+b) To add columns in the table, use the following query:
 
+```php
+$sql = "alter table `data` add email VARCHAR(100)";
+```
+
+- `add` - adds the column
+
+<img src="./alter-add-column.png" alt="Alter table data in php - Add column">
+
+[alter-add.php](./alter-add.php)
 
 
 
