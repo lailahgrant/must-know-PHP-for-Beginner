@@ -92,7 +92,15 @@ $sql = "alter table `data` add email VARCHAR(100)";
 [delete.php](delete.php)
 
 
+## 8. Form data
 
+> How to insert data from a form to a database
+
+<img src="./form-html.png" alt="Form HTML code">
+
+<img src="./form-php.png" alt="PHP code to insert form data to database">
+
+[form.php](./form.php)
 
 
 
