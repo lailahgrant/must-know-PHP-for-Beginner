@@ -64,6 +64,10 @@ $sql = "alter table `data` drop column `email`";
 ```
 - `drop column` deletes the whole column in a table
 
+<img src="./alter-drop-column.png" alt="Alter table data in php - alter column">
+
+[alter.php](./alter.php)
+
 
 
 
